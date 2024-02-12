@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*Configuração Global*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    margin: auto;
+    width: 70vw;
+    background-color: black;
+    color: white;
+}
+/*Configuração body*/
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+h5#curriculo {
+    text-align: center;
+}
+nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav > ul > li > a  {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav > ul > li > a:hover {
+    text-decoration: underline;
+    background-color: aqua;
+    color: blue;
+}
+hr {
+    margin-bottom: 10px;
+}
+h4 {
+    padding-top: 10px;
+}
+h5, p {
+    padding-left: 10px;
+}
+.pdf {
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 5px;
+    padding: 5px;
+}
+.cursos {
+    padding-left: 25px;
+}
+/*Configuração redes sociais*/
+.social-media {
+    text-align: center;
+    list-style-type: none;
+    margin: 10px;
+}
+.social-media li {
+    display: inline-block;
+    margin: 5px;
+}
+.social-media li a:hover {
+    background-color: aqua;
+    border-radius: 10px;
+}
+/*Configurando o rodapé*/
+footer {
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    padding: 8px 0px 20px 0px;
+}

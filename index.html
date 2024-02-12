@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!--Link para uso dos icones do google-->
+    <link rel="shortcut icon" href="./images/seo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" media="all">
+    <link rel="stylesheet" href="./css/screen.css" media="screen">
+    <link rel="stylesheet" href="./css/print.css" media="print">
+</head>
+
+<body onresize="mudouTamanho()">
+    <!--Cabeçalho da Página-->
+    <header>
+        <h1>Edcarlos Oliveira</h1>
+        <p>Python Developer</p>
+
+        <!--Menu burger-->
+        <span id="icones" class="material-icons" onclick="clicMenu()">menu</span>
+
+        <!--Menu de navegação-->
+        <nav id="navegacao">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./html/curriculo.html">Currículo-Pdf</a></li>
+                <li><a href="./html/brilho.html" id="brilho"><img class="brilho" src="./images/sol.png" alt="Icone de sol"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Corpo da Página-->
+    <section class="section-conteudos">
+        <!--Colunas left-right-->
+        <div class="column">
+            <h2>Migrando para área de tecnologia</h2>
+            <h5>Síntese Profissional</h5>
+            <img class="img-section" src="./images/escritorio450.jpg" alt="escritório">
+            <p id="sec-cont">Migrando para área de tecnologia, busco recolocação no desenvolvimento de softwares, preferência na utilização da linguagem de programação Python, soluções que envolvam desenvolvimentos Back-end, Machine Learning e Inteligência Artificial (IA). Conhecimentos básicos nas linguagens Java, JavaScript, e PHP, habilidades básicas nas linguagens de marcação, HTML5(HyperText Markup Language) e Markdown, linguagem de estilos, CSS3 (Cascading Style Sheets), Frameworks Django, Flask e Bootstrap, Banco de dados, MySql, utilização das bibliotecas Scikit-learn, NumPy, Pandas, NLTK, Matplotilib e Seaborn e hospedagem e versionamentos utilizando Git e GitHub.</p>
+        </div>
+        
+        <div class="column">
+            <h2 id="facad">Formação Acadêmica</h2>
+            <h5>Títulos e Cursos de Capacitação</h5>
+            <img class="img-section" src="./images/academico.jpg" alt="diplomas">
+            <ul class="ul-titulos">
+                <h5 id="titulos">Graduação e Pós Graduação:</h5>
+                <li>Pós-Graduando em <strong>Desenvolvimento Web Full Stack</strong> – Anhanguera – 2024 - Cursando</li>
+                <li>Pós-Graduando em <strong>Inteligência Artificial e Machine Learning</strong> – Anhanguera – 2023 - Cursando</li>
+                <li>Pós-Graduação em <strong>Gramática e Textos da Língua Portuguesa</strong> – UNINOVE – 2014</li>
+                <li>Graduação em <strong>Educação Física - Licenciatura</strong> – UNINOVE – 2009</li>
+                <ul class="ul-certificados">
+                    <h5 id="certificados">Top 5 dos Cursos de Capacitação:</h5>
+                    <li>Python</li>
+                    <li>Php</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>Inteligência Artificial (IA)</li>
+                </ul>
+            </ul>
+        </div>
+    </section>    
+        
+    <!--Coluna bottom-->
+    <section class="section-bottom">
+        <div>
+            <h2>Experiência Profissional</h2>
+            <h5>Empresas</h5>
+            <img class="img-work" src="./images/has-worked450.jpg" alt="has-worked">
+            <ul class="ul-empresas">
+                <li>Nprodutos Comércio de Informática e Artgs</li>
+                <li>CKL Buffet e Eventos – ALDEIA X</li>
+                <li>Secretaria de Segurança Pública</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Social Media-->
+    <ul class="social-media">
+        <li><a href="https://linkedin.com/in/edcarlos-oliveira" target="_blank"><img src="./images/Linkedin.png" alt="Logo Linkendin"></a></li>
+        <li><a href="https://github.com/Edcarlos-Oliveira" target="_blank"><img src="./images/GitHub.png" alt="Logo GitHub"></a></li>
+    </ul>
+
+    <!--Rodapé-->
+    <footer>&reg; &copy; Todos direitos reservados</footer> 
+    
+    <!--Arquivo JS externo-->
+    <script src="./js/index.js"></script>
+</body>
+</html>

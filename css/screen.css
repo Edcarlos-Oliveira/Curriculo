@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*Formatação telas pequenas*/
+@media screen and (max-width: 1055px) {
+    span#icones {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    html, body {
+        width: 100%;
+    }
+    .section-conteudos {
+        width: 375px;
+        margin-top: 10px;
+    }
+    .img-section {
+        width: 365px;
+    }
+    p#sec-cont {
+        width: 360px;
+    }
+    .ul-titulos {
+        width: 350px;
+    }
+    h2, h5 {
+        text-align: center;
+    }
+    .section-bottom {
+        width: 375px;
+    }
+    .img-work {
+        width: 375px;
+    }
+    .ul-empresas {
+        float: none;
+    }
+    footer {
+        clear: both;
+        margin-top: 10px;
+    }    
+}
+ 

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*Formatação para print*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    width: 100vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1em;
+}
+header {
+    text-align: center;
+}
+span {
+    display: none;
+}
+nav > ul > li > a {
+    display: none;
+}
+.section-conteudos {
+    width: 100%;
+    padding: 15px;
+    box-shadow: none;
+}
+p#sec-cont {
+    width: 100%;
+    text-align: justify;
+    padding-bottom: 10px;    
+}
+img {
+    display: none;
+}
+h2, h5 {
+    text-align: center;  
+}
+.column {
+    width: 100%;
+    text-align: justify;
+}
+.section-bottom {
+    width: 100%;
+    clear: both;
+    box-shadow: none;
+}
+.ul-empresas {
+    float: none;
+}
+.social-media {
+    display: none;
+}
+footer {
+    display: none;
+}
+.section-bottom::after {
+    font-size: 12px;
+    content: "Currículo impresso da página Edcarlos Oliveira.";
+}

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*Formatação global*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Formatação html, body*/
+html, body {
+    background-color: white;
+    color: black;
+    margin: auto;
+    width: 100vw;
+}
+/*Formatação h1*/
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+/*Formatação h5*/
+h5#curriculo {
+    text-align: center;
+}
+/*Formatação menu navegação*/
+nav > ul > li > a  {
+    display: none;
+}
+nav > a:hover {
+    text-decoration: underline;
+    background-color: aqua;
+    color: blue;
+}
+/*Formatação h4, h5 e p*/
+h4 {
+    padding-top: 10px;
+}
+h5, p {
+    padding-left: 10px;
+}
+/*Formatação Pdf*/
+.pdf {
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 5px;
+    padding: 5px;
+}
+/*Formatação cursos*/
+.cursos {
+    padding-left: 25px;
+}
+/*Formatação midias sociais*/
+.social-media {
+    display: none;
+}
+.pdf::after {
+    font-size: 12px;
+    content: "Currículo impresso da página Edcarlos Oliveira.";
+}

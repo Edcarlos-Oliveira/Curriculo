@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/*Configurações Global*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/*Configuração html*/
+body, html {
+    width: 100%;
+    background-color: white;
+}
+/*Configuração Cabeçalho*/
+header {
+    background-color: lightgray;
+    color: black;
+    margin-bottom: 10px;
+}
+header > h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+header > p {
+    text-align: center;
+    padding: 5px;
+}
+/*Configuração Menu burger*/
+span#icones {
+    margin: auto;
+    width: 20px;
+    display: none;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+span#icones:hover {
+    background-color: aqua;
+    color: blue;
+}
+/*Configuração navegação*/
+nav > ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;  
+}
+nav > ul > li > a {
+    width: 8vw;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border-top: 0.2px solid gray;
+}
+a#brilho {
+    background-color: white;
+}
+a#brilho:hover {
+    background-color: aqua;
+    color: blue;
+}
+nav > ul > li > a:hover {
+    background-color: aqua;
+    color: blue;
+    text-decoration: underline;
+}
+nav > ul > li {
+    display: inline-block;
+    margin: 5px;
+}
+/*Configuração section-conteudos*/
+.section-conteudos {
+    background-color: rgb(247, 240, 240);
+    color: black;
+    width: 1050px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+.img-section {
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-shadow: 1px 1px 2px black;
+}
+p#sec-cont {
+    float: right;
+    width: 550px;
+    text-align: justify;
+    padding-left: 10px;
+    line-height: 1.5em;
+}
+.column {
+    padding: 10px;
+}
+.ul-titulos {
+    float: left;
+    width: 530px;
+    text-align: justify;
+    padding: 15px 20px 0px 15px;
+    line-height: 1.5em;
+}
+#facad {
+    margin-top: 20px;
+}
+.ul-certificados li {
+    background-color: rgb(214, 210, 210);
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.ul-certificados li:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+h5#certificados {
+    margin-top: 15px;
+}
+/*Configuração col-profss*/
+.section-bottom {
+    background-color: rgb(247, 240, 240);
+    color: black;
+    width: 1050px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+.img-work {
+    border-radius: 15px;
+    padding-top: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px black;
+}
+.ul-empresas {
+    float: right;
+    width: 430px;
+    text-align: justify;
+    padding: 15px;
+    line-height: 1.8em;
+}
+/*Configuração redes sociais*/
+.social-media {
+    text-align: center;
+    list-style-type: none;
+    margin: 10px;
+}
+.social-media li {
+    display: inline-block;
+    margin: 5px;
+}
+.social-media li a:hover {
+    background-color: aqua;
+    border-radius: 10px;
+}
+/*Configurando o rodapé*/
+footer {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px 0px 20px 0px;
+    font-weight: bold;
+}

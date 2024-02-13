@@ -28,8 +28,9 @@
         width: 90%;
         padding: 5px 10px 0px 25px;
     }
-    .ul-certificados li {
-        margin: 2.2px;  
+    .ul-certificados {
+        width: 100%;
+        text-align: center;
     }
     .section-bottom {
         width: 80%;

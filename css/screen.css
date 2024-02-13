@@ -8,37 +8,40 @@
     nav {
         display: none;
     }
-    html, body {
-        width: 100%;
-    }
     .section-conteudos {
-        width: 375px;
-        margin-top: 10px;
-    }
-    .img-section {
-        width: 365px;
-    }
-    p#sec-cont {
-        width: 360px;
-    }
-    .ul-titulos {
-        width: 350px;
+        width: 80%;
     }
     h2, h5 {
         text-align: center;
+    } 
+    .img-section {
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+        padding: 0px;
+    }
+    p#sec-cont {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ul-titulos {
+        float: none;
+        width: 90%;
+        padding: 5px 10px 0px 25px;
+    }
+    .ul-certificados li {
+        margin: 2.2px;  
     }
     .section-bottom {
-        width: 375px;
+        width: 80%;
     }
     .img-work {
-        width: 375px;
+        width: 98.5%;
+        margin-top: 10px;
     }
     .ul-empresas {
         float: none;
+        width: 90%;
+        padding: 5px 10px 0px 25px;
     }
-    footer {
-        clear: both;
-        margin-top: 10px;
-    }    
 }
  
